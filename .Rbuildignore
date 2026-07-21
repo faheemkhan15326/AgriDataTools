@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^README\.md$
+^README\.Rmd$
+^AgriDataTools\.Rproj$
+^data-raw$
+^LICENSE\.md$

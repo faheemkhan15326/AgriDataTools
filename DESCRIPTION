@@ -1,0 +1,34 @@
+Package: AgriDataTools
+Type: Package
+Title: Automated Statistical Analysis and Tools for Agricultural Research
+Version: 0.1.0
+Authors@R: person(given = "Faheem",
+                  family = "Khan",
+                  role = c("aut", "cre"),
+                  email = "2022ag94@uaf.edu.pk",
+                  comment = c(ORCID = "0009-0002-8963-7157"))
+Description: A comprehensive, high-performance suite of statistical tools 
+    tailored for agricultural and plant breeding research. Provides automated 
+    pipelines for analysis of variance (ANOVA) under Randomized Complete Block 
+    Designs (RCBD) and Completely Randomized Designs (CRD), variability parameters 
+    estimation, post-hoc multiple comparisons, multivariate analysis including 
+    principal component analysis (PCA), path analysis, and genotypic clustering.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports: 
+    ggplot2,
+    reshape2,
+    factoextra,
+    dendextend,
+    circlize,
+    stats,
+    graphics,
+    readxl,
+    dplyr,
+    utils
+Config/roxygen2/version: 8.0.0
+VignetteBuilder: knitr
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)

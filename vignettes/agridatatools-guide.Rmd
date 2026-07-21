@@ -1,0 +1,16 @@
+---
+title: "AgriDataTools Package Guide"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{AgriDataTools Package Guide}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+  # AgriDataTools Guide
+  Welcome to the official deployment user guide for the AgriDataTools agricultural research package.
+
+## Execution Example
+```r
+library(AgriDataTools)
+# Core analysis engine initialization ready.
